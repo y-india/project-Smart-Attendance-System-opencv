@@ -84,7 +84,7 @@ To use this system in your **school, office, or event**, you must:
 
 ---
 
-## 💼 Hire Me to Set It Up
+## 💼 Contact Me to Set It Up
 
 Want this system installed for your organization?
 
