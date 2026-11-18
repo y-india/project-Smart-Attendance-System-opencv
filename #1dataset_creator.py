@@ -1,15 +1,10 @@
 import cv2, os, numpy as np
 
-
-
-
-
 def create_dataset(name, max_images=75, save_dir='dataset'):
     name = name.strip().lower()
     person_dir = os.path.join(save_dir, name) 
     os.makedirs(person_dir, exist_ok=True)
 
-    
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
@@ -93,12 +88,9 @@ def create_dataset(name, max_images=75, save_dir='dataset'):
 
 
 
-
-
 if __name__ == "__main__":
     n = input("Enter your name (no spaces): ").strip()
     create_dataset(n, max_images=50)
-
 
 
 
